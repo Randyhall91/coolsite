@@ -47,10 +47,23 @@ h1.main-title{
   padding: 1rem;
   width: 20%;
 }
+.catpic{
+  height: 10rem;
+  width: 10rem;
+}
 
 
 footer{
   background-color: var(--primary);
   height:10rem;
-  transform:translate(0,12rem)
+  position:absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+
+  @media(max-width: 768px){
+    header{
+      background-color: black;
+    }
   }
